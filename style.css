@@ -1,0 +1,220 @@
+.roboto {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "width" 100;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", serif;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+li{
+    list-style:none ;
+}
+.nav-links{
+    display:flex;
+    gap: 75px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dadada;
+    padding: 0 100px 0 54px;
+}
+.link{
+    color: #000000;
+    font-weight: 500;
+    line-height: 24px;
+    transition: all 0.1s linear;
+}
+.link:hover{
+    opacity: 0.5;
+}
+.nav-icon{
+    display: flex;
+    gap: 45px;
+}
+.header .icon{
+    height: 18.67px;
+    width: fit-content;
+    object-fit: cover;
+    border: 1px
+}
+.header-browse{
+    padding-top: 30px;
+    text-align: center;
+    line-height: 48px;
+    font-weight: 700;
+    font-size: 32px;
+}
+.text-browse{
+    color: gray;
+    text-align: center;
+    font-size:20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.icon{
+    width: 5px;
+    height: 5px;
+    padding-right: 20px;
+}
+.product-range{
+    width: max-content;
+    height: max-content;
+    margin:auto;
+}
+.img-browse{
+    padding-top: 40px;
+    display:flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.text-browse2{
+    padding-top: 20px;
+    display:flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: calc(33.3333333%);
+}
+.text-inside-browse{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+}
+.text-1{
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+.text-2{
+    font-size: 52px;
+    line-height: 65px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #B88E2F;
+}
+.text-3{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #333333;
+}
+.text-4{
+    display: flex;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 25px 72px;
+    gap: 10px;
+    background-color: #B88E2F;
+    border: 1px none white;
+    color: white;
+}
+.text{
+    position:absolute;
+    border: 1px solid #FFF3E3;
+    background-color: #FFF3E3;
+    top: 215px;
+    left: 778px;
+    right: 101px;
+    bottom: 116.53px;
+    min-width: 561px;
+    min-height: 344px;
+    padding: 62px 43px 37px 39px;
+    border-radius: 10px;
+}
+.banner{
+    background-image: url("./public/icon/image/scandinavian-interior-mockup-wall-decal-background\ 1.png");
+    width: 100%;
+    height: 716.83px;
+    /* padding-top:95.7px; */
+    position: relative;
+}
+.our-product{
+    border: 1px solid white;
+    min-width: 1236px;
+    min-height:1084px;
+    margin: 0px 102px;
+    align-items: center;
+}
+.header-product{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    padding-bottom: 32px;
+}
+#item{
+    border:1px none white;
+    width: 285px;
+    height: 446px; 
+    width: calc(25%) - 32px;
+}
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    gap: 32px;
+}
+.item1{
+    position: relative;
+}
+.item1-body{
+    border: 1px none white;
+    background-color: #F4F5F7;
+    text-align: start;
+    min-width: 285px;
+    min-height: 145px;
+    padding: 16px 20px 30px 16px;
+}
+.item1-discount{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    left: 213px;
+    bottom: 229px;
+}
+.old-price{
+    letter-spacing: 0%;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #B0B0B0;
+}
+.new-price{
+    letter-spacing: 0%;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+}
+.item-name{
+    letter-spacing: 0%;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color:#889899;
+}
+.item-header{
+    letter-spacing: 0%;
+    font-size: 24px;
+    line-height: 28.8px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
